@@ -22,3 +22,7 @@ and does the following:
 import sys
 import calendar
 from datetime import datetime
+
+m = datetime.today().month
+y = datetime.today().year
+print(calendar.TextCalendar().formatmonth(y, m))
